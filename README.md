@@ -10,7 +10,7 @@ It includes a Python tool for **automated risk ranking** and **Monte Carlo-based
 
 ---
 
-## 🧩 Project Overview
+## Project Overview
 
 The fictional smart home system includes devices such as:
 
@@ -26,7 +26,7 @@ These devices interact through local networks, mobile apps, and cloud services �
 
 ---
 
-## 🎯 Objectives
+## Objectives
 
 - Apply **structured threat modeling** using the **STRIDE** and **DREAD** frameworks.  
 - Identify and analyze:
@@ -40,7 +40,7 @@ These devices interact through local networks, mobile apps, and cloud services �
 
 ---
 
-## 🧠 Frameworks & Methodologies
+## Frameworks & Methodologies
 
 | Framework | Description |
 |------------|--------------|
@@ -51,7 +51,7 @@ These devices interact through local networks, mobile apps, and cloud services �
 
 ---
 
-## 🐍 Python Tool: `threat_modelling.py`
+## Python Tool: `threat_modelling.py`
 
 ### Input
 A YAML file defining threats, their impact, likelihood, and DREAD metrics:
@@ -99,7 +99,7 @@ Console summary of top threats
 
 ---
 
-## 📊 Example Results
+## Example Results
 | Threat                  | Risk Score | Probability | Priority |
 | ----------------------- | ---------- | ----------- | -------- |
 | exploit_password_reuse  | 8.2        | 0.1476      | 1.210    |
@@ -110,7 +110,7 @@ Credential-based threats rank the highest, highlighting the importance of strong
 
 ---
 
-🧰 Requirements
+## Requirements
 
 Python 3.9+
 
@@ -121,7 +121,7 @@ python threat_modelling.py input.yaml
 
 ---
 
-## 🚀 Usage
+## Usage
 ```bash
 python threat_modelling.py input.yaml
 ```
@@ -129,5 +129,5 @@ Outputs will be saved in CSV format and printed to the console.
 
 ---
 
-## 👥 Authors
+## Authors
 Nenad Sekulic
