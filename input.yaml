@@ -1,0 +1,144 @@
+attack_tree:
+  physical_intrusion:
+    exploit_smart_lock:
+      guess_pin:
+        impact: high
+        likelihood: medium
+        dread: 
+          damage: 9
+          reproducibility: 4
+          exploitability: 4
+          affected_users: 10
+          discoverability: 5
+        
+      exploit_firmware_vulnerability:
+        impact: high
+        likelihood: low
+        dread: 
+          damage: 7
+          reproducibility: 6
+          exploitability: 6
+          affected_users: 6
+          discoverability: 8
+
+    bypass_smart_doorbell:
+      disable_video_feed:
+        impact: medium
+        likelihood: medium
+        dread: 
+          damage: 6
+          reproducibility: 3 
+          exploitability: 4
+          affected_users: 8
+          discoverability: 5
+
+  network_attack:
+    exploit_wifi_security:
+      brute_force_router_credentials:
+        impact: high
+        likelihood: medium
+        dread: 
+          damage: 7
+          reproducibility: 5
+          exploitability: 6
+          affected_users: 8
+          discoverability: 6
+
+    intercept_iot_communications:
+      man_in_the_middle_attack:
+        impact: high
+        likelihood: medium
+        dread: 
+          damage: 8
+          reproducibility: 4
+          exploitability: 5
+          affected_users: 6
+          discoverability: 6
+
+  data_theft_privacy_invasion:
+    exploit_furbo_camera:
+      access_live_feed:
+        impact: high
+        likelihood: medium
+        dread: 
+          damage: 10
+          reproducibility: 6
+          exploitability: 6
+          affected_users: 8
+          discoverability: 5
+
+    exploit_voice_assistant:
+      eavesdrop_conversations:
+        impact: high
+        likelihood: medium
+        dread: 
+          damage: 10
+          reproducibility: 6
+          exploitability: 7
+          affected_users: 8
+          discoverability: 6
+
+      extract_audio_logs:
+        impact: medium
+        likelihood: low
+        dread: 
+          damage: 8
+          reproducibility: 7
+          exploitability: 6
+          affected_users: 8
+          discoverability: 6
+
+  device_disruption:
+    manipulate_smart_lighting:
+      exploit_hue_bridge:
+        impact: low
+        likelihood: medium
+        dread: 
+          damage: 4
+          reproducibility: 4
+          exploitability: 4
+          affected_users: 5
+          discoverability: 4
+
+    manipulate_smart_appliances:
+      change_air_fryer_schedule:
+        impact: low
+        likelihood: medium
+        dread: 
+          damage: 2
+          reproducibility: 3
+          exploitability: 3
+          affected_users: 4
+          discoverability: 3
+
+  account_attack:
+    exploit_linked_accounts:
+      steal_payment_credentials:
+        impact: high
+        likelihood: low
+        dread: 
+          damage: 10
+          reproducibility: 7
+          exploitability: 7
+          affected_users: 5
+          discoverability: 7
+
+      hijack_cloud_service_account:
+        impact: high
+        likelihood: medium
+        dread: 
+          damage: 7
+          reproducibility: 6
+          exploitability: 6
+          affected_users: 4
+          discoverability: 6
+
+      exploit_password_reuse:
+        impact: high
+        likelihood: high
+        dread: 
+          damage: 9
+          reproducibility: 8
+          exploitability: 8
+          affected_users: 7
+          discoverability: 9
