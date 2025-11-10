@@ -1,0 +1,14 @@
+L1,L2,threat,impact,likelihood,damage,reproducibility,exploitability,affected_users,discoverability,dread_score
+physical_intrusion,exploit_smart_lock,guess_pin,high,medium,9,4,4,10,5,6.4
+physical_intrusion,exploit_smart_lock,exploit_firmware_vulnerability,high,low,7,6,6,6,8,6.6
+physical_intrusion,bypass_smart_doorbell,disable_video_feed,medium,medium,6,3,4,8,5,5.2
+network_attack,exploit_wifi_security,brute_force_router_credentials,high,medium,7,5,6,8,6,6.4
+network_attack,intercept_iot_communications,man_in_the_middle_attack,high,medium,8,4,5,6,6,5.8
+data_theft_privacy_invasion,exploit_furbo_camera,access_live_feed,high,medium,10,6,6,8,5,7.0
+data_theft_privacy_invasion,exploit_voice_assistant,eavesdrop_conversations,high,medium,10,6,7,8,6,7.4
+data_theft_privacy_invasion,exploit_voice_assistant,extract_audio_logs,medium,low,8,7,6,8,6,7.0
+device_disruption,manipulate_smart_lighting,exploit_hue_bridge,low,medium,4,4,4,5,4,4.2
+device_disruption,manipulate_smart_appliances,change_air_fryer_schedule,low,medium,2,3,3,4,3,3.0
+account_attack,exploit_linked_accounts,steal_payment_credentials,high,low,10,7,7,5,7,7.2
+account_attack,exploit_linked_accounts,hijack_cloud_service_account,high,medium,7,6,6,4,6,5.8
+account_attack,exploit_linked_accounts,exploit_password_reuse,high,high,9,8,8,7,9,8.2
